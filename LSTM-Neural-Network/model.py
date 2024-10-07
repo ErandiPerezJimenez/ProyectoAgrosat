@@ -8,6 +8,7 @@ from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import LSTM, Dense, Dropout
 
 dataset = xr.open_dataset('/Users/davidfarfancastro/Documents/PY/AGROSAT/g4.timeAvgMap.GPM_3IMERGDE_07_precipitation.20240828-20240831.125W_25N_67W_53N.nc')
+#change the directory please
 
 precipitation = dataset['GPM_3IMERGDE_07_precipitation'].values  
 
